@@ -118,8 +118,8 @@ button:hover {
 
 .story {
 	width: 100%;
-	height: 100vh;
-	padding: 40px 0px;
+	height: 100%;
+	padding: 250px 0px;
 	background-color: #191919;
 }
 
@@ -187,5 +187,11 @@ footer {
 	}
 	40% {
 		transform: translateY(0%);
+	}
+}
+
+@media (max-width: 449px) {
+	nav {
+		flex-direction: column;
 	}
 }
